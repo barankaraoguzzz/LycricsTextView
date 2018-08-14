@@ -1,0 +1,6 @@
+framework module Pods_LycricsTextView_Tests {
+  umbrella header "Pods-LycricsTextView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

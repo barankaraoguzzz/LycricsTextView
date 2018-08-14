@@ -1,0 +1,6 @@
+framework module LycricsTextView {
+  umbrella header "LycricsTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}

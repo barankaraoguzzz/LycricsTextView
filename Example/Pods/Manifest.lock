@@ -1,0 +1,16 @@
+PODS:
+  - LycricsTextView (0.1.0)
+
+DEPENDENCIES:
+  - LycricsTextView (from `../`)
+
+EXTERNAL SOURCES:
+  LycricsTextView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LycricsTextView: 7ba891c5cb0fdd0b8a4648a422d39bee7752835a
+
+PODFILE CHECKSUM: b7b049f941a247fb8809e0a72fd21c31b8de8c08
+
+COCOAPODS: 1.5.3

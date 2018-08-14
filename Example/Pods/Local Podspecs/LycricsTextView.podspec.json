@@ -1,0 +1,22 @@
+{
+  "name": "LycricsTextView",
+  "version": "0.1.0",
+  "summary": "A short description of LycricsTextView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/baran.karaoguz@ogr.sakarya.edu.tr/LycricsTextView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "baran.karaoguz@ogr.sakarya.edu.tr": "baran.karaoguz@ogr.sakarya.edu.tr"
+  },
+  "source": {
+    "git": "https://github.com/baran.karaoguz@ogr.sakarya.edu.tr/LycricsTextView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LycricsTextView/Classes/**/*"
+}
