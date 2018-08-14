@@ -1,9 +1,9 @@
 {
   "name": "LycricsTextView",
   "version": "0.1.0",
-  "summary": "A short description of LycricsTextView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/baran.karaoguz@ogr.sakarya.edu.tr/LycricsTextView",
+  "summary": "LycricsTextView is animating textview with swift. Color change character and scrooling textview.",
+  "description": "TODO: LycricsTextView is animating textview with swift. Color change character and scrooling textview.",
+  "homepage": "https://github.com/barankaraoguzzz/LycricsTextView.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "baran.karaoguz@ogr.sakarya.edu.tr": "baran.karaoguz@ogr.sakarya.edu.tr"
   },
   "source": {
-    "git": "https://github.com/baran.karaoguz@ogr.sakarya.edu.tr/LycricsTextView.git",
+    "git": "https://github.com/barankaraoguzzz/LycricsTextView.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02ECE6FA37D59F852F43F6771F6E70B2 /* LycricsTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5435355343ABF7DE29E39DC7E2BF7275 /* LycricsTextView-dummy.m */; };
+		03C1ACE2F4BC29187513A46F6D2F3111 /* LycricsAttributed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D02D1EF57C45143875DB7523D8020 /* LycricsAttributed.swift */; };
 		123153E150790AA68ED0CAB662DE4D56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1349F9861CE4F52DC332039078F96C9F /* LycricsTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C1467DF89AEF997676E848093ADFC40 /* LycricsTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18E72656895C5F2DB6824199CD048845 /* Pods-LycricsTextView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B98CFFB4433FF2FD18BCD0E3BF0FE0A /* Pods-LycricsTextView_Tests-dummy.m */; };
 		2D0A241343E35AD591F22E5E58DAD6B5 /* Pods-LycricsTextView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD901335EEB091596163B70319B939EF /* Pods-LycricsTextView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C3349D8F01C52A716D0856BCBBF8A6A /* LycricsTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24ECC927223DAB7DAC6AF286BCE812E0 /* LycricsTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C69A091F5ED3B465383B5C14D1CCD6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		594BB3543A11CFC07D7BAEA21C601119 /* LycricsLineProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29379C7C5D4BC3336F2AB52143975F2E /* LycricsLineProperties.swift */; };
 		7E58DA016F19AF5EA4BF995DA4BEF573 /* Pods-LycricsTextView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BD79F0D4503E077F34BE0C5A736543 /* Pods-LycricsTextView_Example-dummy.m */; };
-		E1F526EAB0BE5902FC672FDF0B1E3FC6 /* LycricsTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7882C20889BADC09E114F2D12E132C01 /* LycricsTextView-dummy.m */; };
-		E7BD8334CE16C9B249E49AD20637DEA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DC54FF1D3BF60956AC3AE68C6A7E54F4 /* LycricsTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B15ECB7FBF470A1E120EA0F190DAEC /* LycricsTextView.swift */; };
 		EFFA8966E98510A636A1F688F9ECECF9 /* Pods-LycricsTextView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C84E9FBB1E2C6F34DAB5342BBA0CFC6 /* Pods-LycricsTextView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5E7F6077339E495B80F1D855D646E72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		FA58880A58AFBD58F268B0AF71E8EBA9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F8332DBC4392A526E12962876C2215 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +26,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 24C1BCC1542273F717FD93FC78E9D3C1;
+			remoteGlobalIDString = F0D2603503639B117DBE55CA6E755EA3;
 			remoteInfo = LycricsTextView;
 		};
 		7251808EE51C55C8CDD99D4D5EFC58AB /* PBXContainerItemProxy */ = {
@@ -37,44 +39,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15FCFBB047DFB536F36CE31DA680F0CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		17AB061CD2BCE0AF0EC6980B4379B366 /* LycricsTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LycricsTextView-prefix.pch"; sourceTree = "<group>"; };
 		1903C6E8DBC9EB7CAC20E398FE8939ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19D09D1D72378C5C6441BE7069062D98 /* Pods-LycricsTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LycricsTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		20075E8DEC32E858A66703F994DFD576 /* LycricsTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LycricsTextView.modulemap; sourceTree = "<group>"; };
 		23EA1D81AC3C1D7E1E39CFA0975A6C0C /* Pods-LycricsTextView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LycricsTextView_Example-resources.sh"; sourceTree = "<group>"; };
-		24E23BCE740616EAE21D6C99AF1E0189 /* LycricsTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LycricsTextView.xcconfig; sourceTree = "<group>"; };
-		24ECC927223DAB7DAC6AF286BCE812E0 /* LycricsTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LycricsTextView-umbrella.h"; sourceTree = "<group>"; };
-		282B78106C4AFD413D4F937605B4C1A8 /* LycricsTextView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = LycricsTextView.podspec; sourceTree = "<group>"; };
-		4519649B711BF113A880336203DA079F /* LycricsTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LycricsTextView.modulemap; sourceTree = "<group>"; };
+		29379C7C5D4BC3336F2AB52143975F2E /* LycricsLineProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LycricsLineProperties.swift; path = LycricsTextView/Classes/LycricsLineProperties.swift; sourceTree = "<group>"; };
+		2B4DC3182EB1E8261D26DA9637BC8B5C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3C1467DF89AEF997676E848093ADFC40 /* LycricsTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LycricsTextView-umbrella.h"; sourceTree = "<group>"; };
 		45BD79F0D4503E077F34BE0C5A736543 /* Pods-LycricsTextView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LycricsTextView_Example-dummy.m"; sourceTree = "<group>"; };
 		46F13C441AD069E199974B6A62C9CD1E /* LycricsTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LycricsTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5435355343ABF7DE29E39DC7E2BF7275 /* LycricsTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LycricsTextView-dummy.m"; sourceTree = "<group>"; };
 		554AA3516D96B9F48CB63256FB9D5C4D /* Pods-LycricsTextView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LycricsTextView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5734F17EBEF094523498D940549B8BF9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59409894258E287F6E650A606C689BE0 /* Pods-LycricsTextView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LycricsTextView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6DBDB841285740AE95F0EC2C49E86003 /* LycricsTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LycricsTextView.xcconfig; sourceTree = "<group>"; };
 		6F92DCF123343CA57C576274E0AFBAEA /* Pods-LycricsTextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LycricsTextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		702C447F868F9EC9BEEB710C402E89A9 /* Pods-LycricsTextView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LycricsTextView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		72BB27D3FB76ED19DBAB8378DC17691B /* Pods-LycricsTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LycricsTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7882C20889BADC09E114F2D12E132C01 /* LycricsTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LycricsTextView-dummy.m"; sourceTree = "<group>"; };
 		7FC44F7883C9B15B34BBB1F1B58D057F /* Pods_LycricsTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LycricsTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FFC271EAF0EB78299D0CF46929CFBC7 /* Pods-LycricsTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LycricsTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		81F8332DBC4392A526E12962876C2215 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = LycricsTextView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		89088BBEC9752478CA8D9BFAC2F5D73E /* Pods_LycricsTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LycricsTextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ABB68D31CC743F79052B2F63A6DF70A /* Pods-LycricsTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LycricsTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		903A8D1140F40BE5158FE34937AD47BD /* Pods-LycricsTextView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LycricsTextView_Tests-resources.sh"; sourceTree = "<group>"; };
+		927D02D1EF57C45143875DB7523D8020 /* LycricsAttributed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LycricsAttributed.swift; path = LycricsTextView/Classes/LycricsAttributed.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B8640EF6D14AB268D210436BE431185 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9B98CFFB4433FF2FD18BCD0E3BF0FE0A /* Pods-LycricsTextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LycricsTextView_Tests-dummy.m"; sourceTree = "<group>"; };
 		9C84E9FBB1E2C6F34DAB5342BBA0CFC6 /* Pods-LycricsTextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LycricsTextView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BAEC410A60270C3541EDFB5685AAE2FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C51E463862ED5784047128C392E5F222 /* Pods-LycricsTextView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LycricsTextView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C7177E67E33A119AE9C32016E41663D8 /* Pods-LycricsTextView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LycricsTextView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D1460F39B8E10E6F4E41A89A8AF4220E /* LycricsTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LycricsTextView-prefix.pch"; sourceTree = "<group>"; };
 		D4D1A5EB42D987DCC0A87FEDC20EBE6D /* Pods-LycricsTextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LycricsTextView_Tests.modulemap"; sourceTree = "<group>"; };
+		D7C2B478B1EEE2D3E91685BD44F4F812 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E32FC0F5AEEDE131FA55F16E9F6ED16D /* Pods-LycricsTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LycricsTextView_Example.modulemap"; sourceTree = "<group>"; };
+		E78116BFB8190223D978D87DC88F3930 /* LycricsTextView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = LycricsTextView.podspec; sourceTree = "<group>"; };
+		F4B15ECB7FBF470A1E120EA0F190DAEC /* LycricsTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LycricsTextView.swift; path = LycricsTextView/Classes/LycricsTextView.swift; sourceTree = "<group>"; };
 		FD61E9216D7378F9F6FB49559F2EB1AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD901335EEB091596163B70319B939EF /* Pods-LycricsTextView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LycricsTextView_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		01D667A197D59D16DC7D65D05A1B7B51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C69A091F5ED3B465383B5C14D1CCD6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		536E374E4F709ED53E2052AD22AE7249 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,34 +103,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5398C5941660BDA0578FCDD239E07CE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E7BD8334CE16C9B249E49AD20637DEA4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00BC9AA9240ABC3472AFE9128D3F13BB /* Development Pods */ = {
+		035F8BB29594ADD4027540646BA24C61 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				04B3FE3827013F8E1E022B1E69684721 /* LycricsTextView */,
+				2B4DC3182EB1E8261D26DA9637BC8B5C /* LICENSE */,
+				E78116BFB8190223D978D87DC88F3930 /* LycricsTextView.podspec */,
+				9B8640EF6D14AB268D210436BE431185 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		04B3FE3827013F8E1E022B1E69684721 /* LycricsTextView */ = {
+		03DB8DEA540EC132767BC69024941D18 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				81F8332DBC4392A526E12962876C2215 /* ReplaceMe.swift */,
-				5472C6A9058DB01E5208EACE3A06F8B2 /* Pod */,
-				56C0B3CD546FE0E6A434A7F189A779D7 /* Support Files */,
+				D7C2B478B1EEE2D3E91685BD44F4F812 /* Info.plist */,
+				20075E8DEC32E858A66703F994DFD576 /* LycricsTextView.modulemap */,
+				6DBDB841285740AE95F0EC2C49E86003 /* LycricsTextView.xcconfig */,
+				5435355343ABF7DE29E39DC7E2BF7275 /* LycricsTextView-dummy.m */,
+				D1460F39B8E10E6F4E41A89A8AF4220E /* LycricsTextView-prefix.pch */,
+				3C1467DF89AEF997676E848093ADFC40 /* LycricsTextView-umbrella.h */,
 			);
-			name = LycricsTextView;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LycricsTextView";
 			sourceTree = "<group>";
 		};
 		08455B567A8CB2B41434DFF03B2873AB /* Pods-LycricsTextView_Tests */ = {
@@ -139,35 +148,24 @@
 			path = "Target Support Files/Pods-LycricsTextView_Tests";
 			sourceTree = "<group>";
 		};
-		5472C6A9058DB01E5208EACE3A06F8B2 /* Pod */ = {
+		5E745C40667563DBD644B1AC98EB44F6 /* LycricsTextView */ = {
 			isa = PBXGroup;
 			children = (
-				15FCFBB047DFB536F36CE31DA680F0CE /* LICENSE */,
-				282B78106C4AFD413D4F937605B4C1A8 /* LycricsTextView.podspec */,
-				BAEC410A60270C3541EDFB5685AAE2FE /* README.md */,
+				927D02D1EF57C45143875DB7523D8020 /* LycricsAttributed.swift */,
+				29379C7C5D4BC3336F2AB52143975F2E /* LycricsLineProperties.swift */,
+				F4B15ECB7FBF470A1E120EA0F190DAEC /* LycricsTextView.swift */,
+				035F8BB29594ADD4027540646BA24C61 /* Pod */,
+				03DB8DEA540EC132767BC69024941D18 /* Support Files */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		56C0B3CD546FE0E6A434A7F189A779D7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5734F17EBEF094523498D940549B8BF9 /* Info.plist */,
-				4519649B711BF113A880336203DA079F /* LycricsTextView.modulemap */,
-				24E23BCE740616EAE21D6C99AF1E0189 /* LycricsTextView.xcconfig */,
-				7882C20889BADC09E114F2D12E132C01 /* LycricsTextView-dummy.m */,
-				17AB061CD2BCE0AF0EC6980B4379B366 /* LycricsTextView-prefix.pch */,
-				24ECC927223DAB7DAC6AF286BCE812E0 /* LycricsTextView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LycricsTextView";
+			name = LycricsTextView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				00BC9AA9240ABC3472AFE9128D3F13BB /* Development Pods */,
+				E00BD068A7C1B500008E88A5B79E04B7 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				E881D2F6C66DC1318B6756FA72C97871 /* Products */,
 				B48233703D7409234316E686E9B7591B /* Targets Support Files */,
@@ -197,6 +195,14 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		E00BD068A7C1B500008E88A5B79E04B7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E745C40667563DBD644B1AC98EB44F6 /* LycricsTextView */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		E765F7C00287C83DEAED1FD997B1062E /* Pods-LycricsTextView_Example */ = {
@@ -238,11 +244,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91CF181D745DCFB065BABEBF25ACF98B /* Headers */ = {
+		B9D7952926BBDF3EC1A54B78B5ED3616 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C3349D8F01C52A716D0856BCBBF8A6A /* LycricsTextView-umbrella.h in Headers */,
+				1349F9861CE4F52DC332039078F96C9F /* LycricsTextView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,23 +263,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		24C1BCC1542273F717FD93FC78E9D3C1 /* LycricsTextView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C4F836ED8AD4EBD29FA7803A29D4207E /* Build configuration list for PBXNativeTarget "LycricsTextView" */;
-			buildPhases = (
-				51C5C147E98E719866244FBFDE5FDF10 /* Sources */,
-				B5398C5941660BDA0578FCDD239E07CE /* Frameworks */,
-				91CF181D745DCFB065BABEBF25ACF98B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LycricsTextView;
-			productName = LycricsTextView;
-			productReference = 46F13C441AD069E199974B6A62C9CD1E /* LycricsTextView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		741B2643FE914B47AA6F982C1C21773E /* Pods-LycricsTextView_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC60CCE428D22C6E215174B2FFA678EF /* Build configuration list for PBXNativeTarget "Pods-LycricsTextView_Tests" */;
@@ -310,6 +299,23 @@
 			productReference = 89088BBEC9752478CA8D9BFAC2F5D73E /* Pods_LycricsTextView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		F0D2603503639B117DBE55CA6E755EA3 /* LycricsTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDBD8EC024774FA8A57EE15FF1924A05 /* Build configuration list for PBXNativeTarget "LycricsTextView" */;
+			buildPhases = (
+				B0E47399A106149DA2E16896FB40E7F7 /* Sources */,
+				01D667A197D59D16DC7D65D05A1B7B51 /* Frameworks */,
+				B9D7952926BBDF3EC1A54B78B5ED3616 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LycricsTextView;
+			productName = LycricsTextView;
+			productReference = 46F13C441AD069E199974B6A62C9CD1E /* LycricsTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -331,7 +337,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				24C1BCC1542273F717FD93FC78E9D3C1 /* LycricsTextView */,
+				F0D2603503639B117DBE55CA6E755EA3 /* LycricsTextView */,
 				B46BCF800AB7828216CE042CA1C1EBBC /* Pods-LycricsTextView_Example */,
 				741B2643FE914B47AA6F982C1C21773E /* Pods-LycricsTextView_Tests */,
 			);
@@ -355,12 +361,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51C5C147E98E719866244FBFDE5FDF10 /* Sources */ = {
+		B0E47399A106149DA2E16896FB40E7F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1F526EAB0BE5902FC672FDF0B1E3FC6 /* LycricsTextView-dummy.m in Sources */,
-				FA58880A58AFBD58F268B0AF71E8EBA9 /* ReplaceMe.swift in Sources */,
+				03C1ACE2F4BC29187513A46F6D2F3111 /* LycricsAttributed.swift in Sources */,
+				594BB3543A11CFC07D7BAEA21C601119 /* LycricsLineProperties.swift in Sources */,
+				02ECE6FA37D59F852F43F6771F6E70B2 /* LycricsTextView-dummy.m in Sources */,
+				DC54FF1D3BF60956AC3AE68C6A7E54F4 /* LycricsTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +378,7 @@
 		2A090F04759E26C684EB0ABE8A2905D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LycricsTextView;
-			target = 24C1BCC1542273F717FD93FC78E9D3C1 /* LycricsTextView */;
+			target = F0D2603503639B117DBE55CA6E755EA3 /* LycricsTextView */;
 			targetProxy = 297B8FC026A795221BC286F10CC30131 /* PBXContainerItemProxy */;
 		};
 		43205885B3CD63C6192EEDF6F46FBCD8 /* PBXTargetDependency */ = {
@@ -415,6 +423,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		8891E4D89AB2F28409AEDB6F1488D5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DBDB841285740AE95F0EC2C49E86003 /* LycricsTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LycricsTextView/LycricsTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LycricsTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LycricsTextView/LycricsTextView.modulemap";
+				PRODUCT_MODULE_NAME = LycricsTextView;
+				PRODUCT_NAME = LycricsTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -572,38 +612,6 @@
 			};
 			name = Release;
 		};
-		E1ED29652D31BEC68C57D76BC8A9E044 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24E23BCE740616EAE21D6C99AF1E0189 /* LycricsTextView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LycricsTextView/LycricsTextView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LycricsTextView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LycricsTextView/LycricsTextView.modulemap";
-				PRODUCT_MODULE_NAME = LycricsTextView;
-				PRODUCT_NAME = LycricsTextView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		EFD6175BCD97846ACFB0510B5C22DF6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8ABB68D31CC743F79052B2F63A6DF70A /* Pods-LycricsTextView_Tests.debug.xcconfig */;
@@ -636,39 +644,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		F372C813AC4585447BF2824CB3208911 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24E23BCE740616EAE21D6C99AF1E0189 /* LycricsTextView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LycricsTextView/LycricsTextView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LycricsTextView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LycricsTextView/LycricsTextView.modulemap";
-				PRODUCT_MODULE_NAME = LycricsTextView;
-				PRODUCT_NAME = LycricsTextView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		F92173550408990E76989E94DBDAA962 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -705,6 +680,39 @@
 			};
 			name = Release;
 		};
+		FC00E7FB68DB37465634E2CE5898055C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DBDB841285740AE95F0EC2C49E86003 /* LycricsTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LycricsTextView/LycricsTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LycricsTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LycricsTextView/LycricsTextView.modulemap";
+				PRODUCT_MODULE_NAME = LycricsTextView;
+				PRODUCT_NAME = LycricsTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -726,11 +734,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4F836ED8AD4EBD29FA7803A29D4207E /* Build configuration list for PBXNativeTarget "LycricsTextView" */ = {
+		CDBD8EC024774FA8A57EE15FF1924A05 /* Build configuration list for PBXNativeTarget "LycricsTextView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E1ED29652D31BEC68C57D76BC8A9E044 /* Debug */,
-				F372C813AC4585447BF2824CB3208911 /* Release */,
+				8891E4D89AB2F28409AEDB6F1488D5CC /* Debug */,
+				FC00E7FB68DB37465634E2CE5898055C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

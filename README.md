@@ -7,6 +7,10 @@
 
 **LycricsTextView framework helps  you make subtitle .You write just a line code  and finished textView animation.**
 
+
+![](https://media.giphy.com/media/oHw7dHlXMvukt6QOdA/giphy.gif) 
+
+
 ## Example
 
 ```swift
@@ -15,15 +19,14 @@ import LycTextView
 
 class ViewController: UIViewController {
 
-@IBOutlet weak var lycricsTextView: LycricsTextView!
+    @IBOutlet weak var lycricsTextView: LycricsTextView!
 
-override func viewDidLoad() {
-super.viewDidLoad()
-lycricsTextView.lycricsColor = .red
-lycricsTextView.animateTime = 20
-lycricsTextView.startLycrics()
-}
-
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        lycricsTextView.lycricsColor = .red
+        lycricsTextView.animateTime = 20
+        lycricsTextView.startLycrics()
+    }
 }
 ```
 
@@ -43,7 +46,7 @@ pod 'LycricsTextView'
 
 ####Then on the top of files where you are going to use this:
 ```swift
-import LycTextView
+import LycricsTextView
 ```
 
 
